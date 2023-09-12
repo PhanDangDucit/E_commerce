@@ -1,0 +1,33 @@
+
+@import './../components/mixins';
+@import './../custom';
+
+
+.carousel-background {
+    overflow: hidden;
+    cursor: pointer;
+    .carousel-control-prev{
+        @include translate_element(-30%, -50%);
+    }
+    .carousel-control-next{
+        @include translate_element(30%, -50%);
+    }
+    &:hover {
+        .slider-banner{
+            display: block;
+        }
+    }
+}
+.slider-banner {
+    background-color: $black;
+    cursor: pointer;
+    display: none;
+}
+// Su dung rieng cho homepage
+.carousel-control-home{
+    height: 5rem;
+}
+
+.col-xl-25 {
+    width:10% !important;
+}

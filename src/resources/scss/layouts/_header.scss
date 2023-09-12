@@ -1,0 +1,5 @@
+@import './../components/mixins';
+
+.menu {
+    @include background-gradient;
+}

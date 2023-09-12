@@ -1,0 +1,7 @@
+.vscode
+/node_modules
+/src/public/css/
+/src/public/images/
+.env
+/src/helpers/generate_key.js
+/JS

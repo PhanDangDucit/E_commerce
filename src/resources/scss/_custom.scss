@@ -1,0 +1,20 @@
+
+// Theme
+$blue-dark:    #0d6efd;
+$blue:    #68e1fd;
+$purple:  #6f42c1;
+$pink:    #d63384;
+
+$primary: $blue;
+$secondary: $purple;
+$success: $blue-dark;
+
+
+//White and gray
+$white:    #fff;
+$black:    #000;
+
+
+
+// Import bootstrap
+@import './../../../node_modules/bootstrap/scss/bootstrap.scss';

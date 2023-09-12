@@ -1,0 +1,9 @@
+@import './../custom';
+
+@mixin translate_element($x, $y) {
+    transform: translate($x, $y);
+}
+
+@mixin background-gradient {
+    background: linear-gradient(to right, rgba($primary,0.95), rgba($secondary, 0.95));
+}

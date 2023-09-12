@@ -1,0 +1,33 @@
+###
+GET http://localhost:8000/
+
+###
+Get  http://localhost:8000/customer/signup
+
+###
+Get  http://localhost:8000/customer/signin
+
+###
+POST  http://localhost:8000/customer/signup/:id
+Content-Type: application/json
+
+{
+    "name": "sdfvbs jifdia",
+    "email": "hJDK@gmail.com",
+    "address": "quan 12",
+    "password": "abdbab10@dvs",
+    "age": 12,
+    "phoneNumber": "+84123043123456677"
+}
+
+###
+POST http://localhost:8000/customer/signin
+Content-Type: application/json
+
+{
+    "email": "hJDK@gmail.com",
+    "password": "abdbab10@dvs"
+}
+
+###
+GET http://localhost:8000/customer/productlist
